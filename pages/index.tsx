@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { getFeaturedEvents } from "../hooks/eventHooks";
+import EventList from "../components/events/EventList";
 
 const Home = () => {
 	const featuredEvents = getFeaturedEvents();
@@ -21,7 +22,7 @@ const Home = () => {
 			</Head>
 			<main className={styles.main}>
 				<div className={styles.container}>
-					<h1>Hello, Madison</h1>
+					<EventList items={featuredEvents} />
 				</div>
 			</main>
 		</>

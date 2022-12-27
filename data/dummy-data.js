@@ -7,7 +7,7 @@ const events = [
 		location: "Somestreet 25, 12345 San Somewhereo",
 		date: "2021-05-12",
 		image: "images/coding-event.jpg",
-		imageMeta: "Photo by AltumCode on Unsplash",
+		alt: "Stock image of computer, notebook, and phone - Photo by AltumCode on Unsplash",
 		isFeatured: false,
 	},
 	{
@@ -18,7 +18,7 @@ const events = [
 		location: "New Wall Street 5, 98765 New Work",
 		date: "2021-05-30",
 		image: "images/introvert-event.jpg",
-		imageMeta: "Photo by Brooke Cagle on Unsplash",
+		alt: "Stock image of young adults meeting - Photo by Brooke Cagle on Unsplash",
 		isFeatured: true,
 	},
 	{
@@ -29,7 +29,18 @@ const events = [
 		location: "My Street 12, 10115 Broke City",
 		date: "2022-04-10",
 		image: "images/extrovert-event.jpg",
-		imageMeta: "Photo by Antenna on Unsplash",
+		alt: "Stock image of adults at a small gathering - Photo by Antenna on Unsplash",
+		isFeatured: true,
+	},
+	{
+		id: "e4",
+		title: "Effective Discipline for Teens",
+		description:
+			"De-stress the stressful adolescent years with tips on effective discipline for ages 13-19. Learn about proven practics, how to be authoritative and firm without fights and how to avoid traps such as the 'too old to spank' myth and other lies told by mass media and western pop psychology.",
+		location: "Teen Central Offices, 10115 Broke City",
+		date: "2023-01-6",
+		image: "images/teen-event.jpg",
+		alt: "Image of young teen girls",
 		isFeatured: true,
 	},
 ];
