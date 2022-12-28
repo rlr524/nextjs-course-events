@@ -1,6 +1,10 @@
 import EventItem from "./EventItem";
 import styles from "./event-list.module.css";
 
+/**
+ * @param props
+ * @returns An unordered list from an array of Events
+ */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const EventList = (props: { items: any }) => {
 	const { items } = props;

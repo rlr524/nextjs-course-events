@@ -3,6 +3,9 @@ import styles from "../styles/Home.module.css";
 import { getFeaturedEvents } from "../hooks/eventHooks";
 import EventList from "../components/events/EventList";
 
+/**
+ * @returns HTML
+ */
 const Home = () => {
 	const featuredEvents = getFeaturedEvents();
 
