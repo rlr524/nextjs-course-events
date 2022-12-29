@@ -1,8 +1,8 @@
-import AddressIcon from "../icons/address-icon";
-import ArrowRightIcon from "../icons/arrow-right-icon";
-import DateIcon from "../icons/date-icon";
+import AddressIcon from "../icons/AddressIcon";
+import ArrowRightIcon from "../icons/ArrowRightIcon";
+import DateIcon from "../icons/DateIcon";
 import AppButton from "../ui/AppButton";
-import styles from "./event-item.module.css";
+import styles from "./styles/event-item.module.css";
 
 const EventItem = (props: {
 	id: string;

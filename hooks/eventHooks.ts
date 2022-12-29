@@ -22,6 +22,6 @@ export function getFilteredEvents(dateFilter: { year: number; month: number }) {
 	return filteredEvents;
 }
 
-export function getEventById(id: string) {
+export function getEventById(id: string | string[] | undefined) {
 	return events.find((event) => event.id === id);
 }

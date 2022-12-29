@@ -34,13 +34,13 @@ const events = [
 	},
 	{
 		id: "e4",
-		title: "Effective Discipline for Teens",
+		title: "Developing with Anime",
 		description:
-			"De-stress the stressful adolescent years with tips on effective discipline for ages 13-19. Learn about proven practics, how to be authoritative and firm without fights and how to avoid traps such as the 'too old to spank' myth and other lies told by mass media and western pop psychology.",
-		location: "Teen Central Offices, 10115 Broke City",
+			"Improve your laifu and maybe even get a waifu, since you'll have your pick of engineering gigs after you've learned how to code by building multiple anime and manga-based web and mobile applications.",
+		location: "69 Any Way, 10115 Broke City",
 		date: "2023-01-6",
-		image: "images/teen-event.jpg",
-		alt: "Image of young teen girls",
+		image: "images/anime-event.jpg",
+		alt: "Weebs telling computers to do things",
 		isFeatured: true,
 	},
 ];

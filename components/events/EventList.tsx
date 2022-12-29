@@ -1,5 +1,5 @@
 import EventItem from "./EventItem";
-import styles from "./event-list.module.css";
+import styles from "./styles/event-list.module.css";
 
 /**
  * @param props
