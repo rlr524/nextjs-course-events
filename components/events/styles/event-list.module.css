@@ -1,5 +1,7 @@
 .list {
 	width: 100%;
 	max-width: 50rem;
-	margin: 5rem auto;
+	margin: 4rem auto;
+	list-style: none;
+	padding-left: 0;
 }
